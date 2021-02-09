@@ -41,7 +41,11 @@ game.play();
   }
 
   if(playerCount === 2) {
-    game.end();
+    game.play();
+  }
+  
+  if(gameState === 2) {
+    game.end
   }
 
   // Add conditions for gameStates and playerCount
